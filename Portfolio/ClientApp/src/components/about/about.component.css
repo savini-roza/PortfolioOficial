@@ -1,0 +1,39 @@
+.about {
+    margin-top: 100px;
+}
+
+.about-title {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.about-paragraph {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.img-right {
+  justify-content: center;
+  display: grid;
+}
+
+
+.pic-me {
+  background-image: url("../../assets/img/me.jpeg");
+  background-size: cover;
+  border-radius: 20px;
+  width: 240px;
+  height: 405px;
+  margin-top: 50px;
+}
+
+  .pic-me:hover {
+    background-image: url("../../assets/img/magician.png"), url("../../assets/img/me.jpeg");
+  }
+
+  @media (min-width: 992px) {
+    .img-right {
+      justify-content: right;
+      display: grid;
+    }
+  }

@@ -1,0 +1,35 @@
+.contact {
+    margin-bottom: 100px;
+}
+
+.contact-title {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.input-contact {
+    margin-bottom: 10px;
+}
+
+.btn-send {
+  background-color: #691b3d;
+}
+
+.keep-in-touch {
+    margin-top: 60px;
+    justify-content: right;
+    display: grid;
+}
+
+.contact-img {
+  width: 30px;
+  margin-left: 14px;
+}
+.contact-social-row {
+  margin-top: 10px;
+}
+
+.contact-link {
+  color: #FFF;
+  margin-left: 10px;
+}

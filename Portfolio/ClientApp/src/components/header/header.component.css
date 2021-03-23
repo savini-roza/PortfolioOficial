@@ -1,0 +1,33 @@
+.custom-nav {
+    background-color: #691b3d;
+}
+
+.custom-nav .menu-btn {
+    margin-top: 9px;
+}
+
+  .custom-nav .menu-btn a {
+    color: #FFF;
+    transition: transform 210ms, opacity 400ms;
+  }
+  .custom-nav .menu-btn a:hover {
+    background-color: #662c4c;
+    border-radius: 30px;
+    transform: scale(1.1);
+  }
+
+.custom-nav .logo {
+    width: 150px;
+}
+
+  .custom-nav .language {
+    margin-top: 5px;
+  }
+  .custom-nav .language a:hover {
+    background-color: transparent !important;
+    transform: scale(1.1);
+  }
+
+.custom-nav .btn-change-language {
+    width: 30px;
+}
