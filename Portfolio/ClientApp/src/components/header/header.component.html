@@ -11,20 +11,13 @@
     <div class="collapse navbar-collapse" id="menu">
 
 
-      <ul class="nav navbar-nav navbar-right" *ngIf="Portuguese">
-        <li class="menu-btn"><a href="#about">Sobre</a></li>
-        <li class="menu-btn"><a href="#skills">Conhecimento</a></li>
-        <li class="menu-btn"><a href="#portfolio">Portfólio</a></li>
-        <li class="menu-btn"><a href="#contact">Contato</a></li>
-        <li class="language" *ngIf="Portuguese"><a (click)="ToEnglish()"><img class="btn-change-language" src="assets/img/english.png" /></a></li>
-      </ul>
-
-      <ul class="nav navbar-nav navbar-right" *ngIf="English">
-        <li class="menu-btn"><a href="#about">About</a></li>
-        <li class="menu-btn"><a href="#skills">Skills</a></li>
-        <li class="menu-btn"><a href="#portfolio">Portfolio</a></li>
-        <li class="menu-btn"><a href="#contact">Contact</a></li>
-        <li class="language" *ngIf="English"><a a (click)="ToPortuguese()"><img class="btn-change-language" src="assets/img/portuguese.png" /></a></li>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="menu-btn"><a href="#about">{{'header.about' | translate}}</a></li>
+        <li class="menu-btn"><a href="#skills">{{'header.skills' | translate}}</a></li>
+        <li class="menu-btn"><a href="#portfolio">{{'header.portfolio' | translate}}</a></li>
+        <li class="menu-btn"><a href="#contact">{{'header.contact' | translate}}</a></li>
+        <li class="language" *ngIf="isPortuguese"><a><img (click)="English()" class="btn-change-language" src="assets/img/english.png" /></a></li>
+        <li class="language" *ngIf="isEnglish"><a><img (click)="Portuguese()" class="btn-change-language" src="assets/img/portuguese.png" /></a></li>
       </ul>
     </div>
   </div>

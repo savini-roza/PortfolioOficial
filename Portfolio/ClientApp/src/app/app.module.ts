@@ -1,8 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
+
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 
 import { MatButtonModule } from '@angular/material/button';
@@ -21,6 +24,8 @@ import { SkillsComponent } from '../components/skills/skills.component';
 import { PortfolioComponent } from '../components/portfolio/portfolio.component';
 import { ContactComponent } from '../components/contact/contact.component';
 import { FooterComponent } from '../components/footer/footer.component';
+
+import { SharedService } from '../services/shared.service';
 
 @NgModule({
   declarations: [
@@ -47,10 +52,25 @@ import { FooterComponent } from '../components/footer/footer.component';
 
     HttpClientModule,
     FormsModule,
+
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    }),
+
     RouterModule.forRoot([
     ])
   ],
-  providers: [],
+  providers: [
+    SharedService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
+  return new TranslateHttpLoader(http);
+}

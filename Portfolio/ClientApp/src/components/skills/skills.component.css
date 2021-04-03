@@ -1,5 +1,13 @@
 .skills {
+    background-image: url('../../assets/img/bg1.jpg');
+    background-attachment: fixed;
     margin-top: 200px;
+    height: 65em;
+}
+
+.custom-container {
+  background-color: #1e1e1e;
+  padding: 100px;
 }
 
 .skills-title {

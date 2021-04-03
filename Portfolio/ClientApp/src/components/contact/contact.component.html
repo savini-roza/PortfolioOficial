@@ -1,26 +1,26 @@
 <section class="contact" id="contact">
-  <div class="container">
+  <div class="container custom-container">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h1 class="contact-title">Gostou do que viu? Entre em contato!!</h1>
+        <h1 class="contact-title">{{'contact.title' | translate}}</h1>
       </div>
       <form>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
           <!-- O FORMULÁRIO NÃO FUNCIONA AINDA, IMPLEMENTAR FUNCIONALIDADE -->
 
-          <input type="text" class="form-control input-contact" placeholder="Nome" required />
-          <input type="email" class="form-control input-contact" placeholder="Email" required />
-          <textarea class="form-control input-contact" placeholder="Deixe sua mensagem aqui! :)" required></textarea>
-          <button class="btn btn-send">Enviar</button>
+          <input type="text" class="form-control input-contact" placeholder="{{'contact.phName' | translate}}" required />
+          <input type="email" class="form-control input-contact" placeholder="{{'contact.phEmail' | translate}}" required />
+          <textarea class="form-control input-contact" placeholder="{{'contact.phMessage' | translate}}" required></textarea>
+          <button class="btn btn-send">{{'contact.send' | translate}}</button>
         </div>
       </form>
     </div>
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="keep-in-touch">
-          <h2>Não vamos parar por aí não!</h2>
-          <p>Aqui estão as minhas redes sociais, sinta-se à vontade para me seguir e manter em contato</p>
+          <h2>{{'contact.title2' | translate}}</h2>
+          <p>{{'contact.p1' | translate}}</p>
           <div class="social-list">
             <div class="row contact-social-row">
               <img class="contact-img" src="assets/img/ig.png" />
@@ -33,6 +33,10 @@
             <div class="row contact-social-row">
               <img class="contact-img" src="assets/img/gh.png" />
               <a class="contact-link" href="https://github.com/savini-roza" target="_blank">savini-roza</a>
+            </div>
+            <div class="row contact-social-row">
+              <img class="contact-img" src="assets/img/artstation.png" />
+              <a class="contact-link" href="https://www.artstation.com/savs" target="_blank">Savini Roza | Illustrator</a>
             </div>
             <div class="row contact-social-row">
               <img class="contact-img" src="assets/img/ff.png" />

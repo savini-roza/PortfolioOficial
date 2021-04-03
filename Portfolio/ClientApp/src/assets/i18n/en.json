@@ -1,0 +1,41 @@
+{
+  "header": {
+    "about": "About",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+
+  "about": {
+    "title": "Who am I?",
+    "p1": "Hello! my name is Savini Roza, I'm 20 years old, I live in Sorocaba, Sao Paulo, Brazil. I'm a Web Developer, with 2 years of experience, I am focused on Front-End and I also have a vocation for Marketing, Design and Character Illustration.",
+    "p2": "I'm a gamer, I particularly like JRPGs, rhythm games and interactive storytelling. I also like to cook, especially making sweets. Besides, I love to travel, mountainous destinations are my favorites, I love visiting new places, trying new things, hiking, and shopping.",
+    "p3": "I started studying the technology area at the age of 14, when I started a course for Internet Computing at Etec Prof. Elias Miguel Júnior, in Votorantim, where I was introduced to Programming Logic and Web Development, I graduated in 2017, and in 2018 I started studying System Analysis and Development at Fatec, in Sorocaba.",
+    "p4": "In the middle of 2018, I got an internship at Melhor Escola, where I worked with SiteOps, I registered schools and updated their information on the platform. 1 year later, I started my internship in the development area, that's when I learned how to make Landing Pages using basic Front-End, and I was also introduced to other tools like Git, Laravel, and Wordpress.",
+    "p5": "At the beginning of 2020 I started a new journey at Tecnologia Única, and currently I work there as a Junior Web Developer, where I had a deeper contact with MVC architecture using ASP.NET, I learned how to use Razor and Angular, in addition I learned to use Marketing automation tools, like RD Station, for me, there is an environment of constant learning, and the expectation is growing more and more in development area."
+  },
+
+  "skills": {
+    "title": "What do I know?",
+    "p1": "Here is a list of my favorite tools and programming languages"
+  },
+
+  "portfolio": {
+    "title": "What do I do?",
+    "p1": "Here is what I've been doing"
+  },
+
+  "contact": {
+    "title": "Did you enjoy it? Contact me!!",
+    "phName": "Name",
+    "phEmail": "Email",
+    "phMessage": "Leave your message here :)",
+    "send": "Send",
+    "title2": "We won't stop here!",
+    "p1": "Here is my social media, feel free to follow me and keep in touch!"
+  },
+
+  "footer": {
+    "p1":  "Made with love and Angular"
+  }
+}

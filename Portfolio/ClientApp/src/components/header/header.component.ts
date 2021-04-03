@@ -1,4 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
+import { SharedService } from '../../services/shared.service';
 
 @Component({
   selector: 'app-header',
@@ -6,11 +7,11 @@ import { Component, OnInit, HostListener } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  constructor() { }
+  constructor(private sharedService: SharedService) { }
   public Phone: boolean = false;
   public screenWidth;
-  public English: boolean;
-  public Portuguese: boolean;
+  public isEnglish: boolean = false;
+  public isPortuguese: boolean = true;
 
   @HostListener('window:resize', ['$event'])
   getScreenSize(event?) {
@@ -23,19 +24,19 @@ export class HeaderComponent implements OnInit {
     }
   }
 
-   // MELHORIA NA TRADUÇAÕ PARA O INGLÊS, COLOCAR PARA TODOS OS COMPONENTES
   ngOnInit() {
-    this.ToPortuguese();
   }
 
-  ToEnglish() {
-    this.English = true;
-    this.Portuguese = false;
+  English() {
+    this.sharedService.toEnglish();
+    this.isEnglish = true;
+    this.isPortuguese = false;
   }
 
-  ToPortuguese() {
-    this.English = false;
-    this.Portuguese = true;
+  Portuguese() {
+    this.sharedService.toPortuguese();
+    this.isEnglish = false;
+    this.isPortuguese = true;
   }
 
 }

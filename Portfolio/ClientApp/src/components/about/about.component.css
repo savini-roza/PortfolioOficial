@@ -1,5 +1,15 @@
 .about {
     margin-top: 100px;
+    color: #383838;
+}
+
+.about-card {
+  background-color: #ffffff;
+  width: 113%;
+  height: 64em;
+  padding: 115px;
+  border-radius: 5px;
+  box-shadow: 50px -50px #604c59;
 }
 
 .about-title {
