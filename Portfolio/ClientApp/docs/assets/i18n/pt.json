@@ -1,0 +1,41 @@
+{
+  "header": {
+    "about": "Sobre",
+    "skills": "Conhecimento",
+    "portfolio": "Portfólio",
+    "contact": "Contato"
+  },
+
+  "about": {
+    "title": "Quem sou eu?",
+    "p1": "Olá, meu nome é Savini Roza, tenho 20 anos, moro em Sorocaba-SP sou desenvolvedora web com 2 anos de experiência, sou focada no Front-End e tenho também uma inclinação para o Marketing, Design e Ilustração de personagens.",
+    "p2": "Sou gamer, particularmente gosto de JRPGs, jogos de ritmo e dramas interativos. Também gosto de cozinhar, principalmente fazer doces. Além disso eu amo viajar, destinos montanhosos são os meus favoritos, adoro conhecer novos lugares, experimentar coisas novas, fazer trilhas e fazer compras.",
+    "p3": "Comecei a estudar a área de tecnologia aos 14 anos, quando iniciei o curso técnico de Informática para Internet na Etec Prof. Elias Miguel Júnior, em Votorantim, onde fui introduzida à Lógica de Programação e ao Desenvolvimento Web, me formei em 2017, e em 2018 comecei a cursar Análise e Desenvolvimento de Sistemas na Fatec de Sorocaba.",
+    "p4": "Na metade de 2018 consegui um estágio no Melhor Escola, onde trabalhei como SiteOps, eu fazia cadastros de escolas e atualizava suas informações na plataforma, 1 ano depois, passei a estagiar na área de desenvolvimento, foi quando aprendi a fazer Landing Pages usando o básico do Front-End, e também fui introduzida a outras ferramentas como o Git, Laravel, e Wordpress.",
+    "p5": "No começo de 2020 iniciei uma nova jornada na Tecnologia Única, e atualmente trabalho lá como Desenvolvedora Web Júnior, onde tive um contato mais profundo com a arquitetura MVC usando ASP.NET, aprendi a usar o Razor e o Angular, além disso aprendi a utilizar ferramentas de automação de Marketing, como o RD Station, ali para mim é um ambiente de constante aprendizado, e a expectativa é de crescer cada vez mais na área."
+  },
+
+  "skills": {
+    "title": "Do que eu manjo?",
+    "p1": "Aqui está uma listinha das minhas linguagens e ferramentas favoritas"
+  },
+
+  "portfolio": {
+    "title": "O que eu ando aprontando?",
+    "p1": "Aqui está o que eu tenho feito"
+  },
+
+  "contact": {
+    "title": "Gostou do que viu? Entre em contato!!",
+    "phName": "Nome",
+    "phEmail": "Email",
+    "phMessage": "Deixe sua mensagem aqui :)",
+    "send": "Enviar",
+    "title2": "Não vamos parar por aí não!",
+    "p1": "Aqui estão as minhas redes sociais, sinta-se à vontade para me seguir e manter em contato"
+  },
+
+  "footer": {
+    "p1":  "Feito com amor, carinho e Angular"
+  }
+}
